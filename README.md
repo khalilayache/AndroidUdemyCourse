@@ -1,2 +1,2 @@
 # AndroidUdemyCourse
-Android Udemy Course Repository
+Android Java Udemy course done in Kotlin Repository
