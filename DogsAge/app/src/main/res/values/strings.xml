@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dogs Age</string>
+    <string name="enter_dogs_age">Enter with dog\'s age</string>
+    <string name="discover_human_age">Discover the human age of a dog</string>
+    <string name="calculate">Calculate</string>
+    <string name="doberman_content_description">Doberman dog with flower on mouth draw</string>
+</resources>
