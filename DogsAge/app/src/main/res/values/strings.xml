@@ -4,4 +4,6 @@
     <string name="discover_human_age">Discover the human age of a dog</string>
     <string name="calculate">Calculate</string>
     <string name="doberman_content_description">Doberman dog with flower on mouth draw</string>
+    <string name="inform_dog_age">Inform a age to dog</string>
+    <string name="dog_human_age">"Dog has %d years old in human age"</string>
 </resources>

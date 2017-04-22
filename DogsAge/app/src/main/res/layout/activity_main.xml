@@ -8,10 +8,10 @@
     tools:context="com.khalilayache.dogsage.MainActivity">
 
     <ImageView
-        android:contentDescription="@string/doberman_content_description"
-        android:id="@+id/dogsView"
+        android:id="@+id/dogsImageView"
         android:layout_width="150dp"
         android:layout_height="170dp"
+        android:contentDescription="@string/doberman_content_description"
         android:src="@drawable/doberman"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -30,10 +30,10 @@
         app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DiscoverText" />
+        app:layout_constraintTop_toBottomOf="@+id/discoverTextView" />
 
     <TextView
-        android:id="@+id/DiscoverText"
+        android:id="@+id/discoverTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
@@ -42,10 +42,10 @@
         android:textSize="20sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dogsView" />
+        app:layout_constraintTop_toBottomOf="@+id/dogsImageView" />
 
     <TextView
-        android:id="@+id/AgeText"
+        android:id="@+id/humanAgeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="73dp"
@@ -58,7 +58,7 @@
         tools:text="19 years old" />
 
     <Button
-        android:id="@+id/CalculateButton"
+        android:id="@+id/calculateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
@@ -66,5 +66,5 @@
         app:layout_constraintHorizontal_bias="0.274"
         app:layout_constraintLeft_toRightOf="@+id/dogsAgeEditText"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DiscoverText" />
+        app:layout_constraintTop_toBottomOf="@+id/discoverTextView" />
 </android.support.constraint.ConstraintLayout>
