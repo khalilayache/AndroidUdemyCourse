@@ -1,6 +1,4 @@
-package com.khalilayache.dogsage;
-
-import android.content.Context;
+package com.khalilayache.gasoralcohol;
 
 
 /**
@@ -8,6 +6,5 @@ import android.content.Context;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-
 public class ExampleInstrumentedTest {
 }

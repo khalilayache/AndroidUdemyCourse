@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gas or Alcohol</string>
+    <string name="alcohol_price">Alcohol price</string>
+    <string name="gas_price">Gas price</string>
+    <string name="exemple_price">Ex: 1.95</string>
+    <string name="check">Check</string>
+</resources>

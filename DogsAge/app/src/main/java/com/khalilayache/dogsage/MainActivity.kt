@@ -4,6 +4,7 @@ import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
@@ -30,20 +31,12 @@ class MainActivity : AppCompatActivity() {
             } else {
                 val dogAge =  dogsAgeEditText.text.toString().toInt()
                 val humanAge = dogAge.times(7)
-                hideKeyboard()
+                this.window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN)
                 humanAgeTextView.text = getString(R.string.dog_human_age,humanAge)
             }
         }
     }
 
-    private fun hideKeyboard() {
-        try{
-            val inputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-            inputMethodManager.hideSoftInputFromInputMethod(calculateButton.windowToken,0)
-        } catch (e: Exception){
-            Log.e("MainActivity", "EXCEPTION THROWS")
-        }
-    }
 }
 
 
