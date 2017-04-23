@@ -4,4 +4,7 @@
     <string name="gas_price">Gas price</string>
     <string name="exemple_price">Ex: 1.95</string>
     <string name="check">Check</string>
+    <string name="better_gas">It\'s better use Gas</string>
+    <string name="better_alcohol">It\'s better use alcohol</string>
+    <string name="inform_both">Inform alcohol price and gas price</string>
 </resources>
