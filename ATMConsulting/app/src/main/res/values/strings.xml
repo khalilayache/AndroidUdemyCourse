@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ATMConsulting</string>
+    <string name="about_company">About Company</string>
+    <string name="lorem_ipsun">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In elit nulla,
+        sollicitudin a egestas sit amet, egestas id felis. Morbi vitae lectus sed metus molestie sodales
+        at ut augue. Nunc at mollis orci. Sed euismod in diam eget dictum. Duis consectetur vestibulum mi,
+        ut finibus nisl. Proin dictum metus in elementum placerat. Sed pretium tortor a augue tempus, quis
+        accumsan enim imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+        ac turpis egestas. Suspendisse egestas, velit eget elementum ullamcorper, diam risus maximus ante,
+        et hendrerit enim mi et libero. Cras a massa eu sem suscipit viverra sit amet in ligula. Mauris a
+        odio et ligula molestie porttitor id sed justo. Nulla imperdiet lacinia leo placerat ultrices.
+        Nulla facilisi. Nunc dignissim, lacus eget consequat aliquam, nibh odio malesuada elit, et
+        vestibulum tortor augue et erat. Nulla sed libero magna. Integer viverra eget orci sit amet
+        condimentum. Vestibulum sodales efficitur orci, sed aliquam dui tempus in. Vestibulum efficitur
+        arcu nunc, et egestas eros bibendum vitae. Ut rhoncus risus fermentum scelerisque commodo.
+        Ut ac semper neque, eu viverra metus. Nam et volutpat sem. Nunc quis sodales eros,
+        vel mattis felis.</string>
+</resources>
