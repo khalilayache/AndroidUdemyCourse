@@ -15,4 +15,16 @@
         arcu nunc, et egestas eros bibendum vitae. Ut rhoncus risus fermentum scelerisque commodo.
         Ut ac semper neque, eu viverra metus. Nam et volutpat sem. Nunc quis sodales eros,
         vel mattis felis.</string>
+    <string name="about_services">Services</string>
+    <string name="consulting">Consulting</string>
+    <string name="process">Process</string>
+    <string name="monitoring_projects">Monitoring and projects</string>
+    <string name="suspension_points">...</string>
+    <string name="about_clients">Our clients</string>
+    <string name="client1">Software development Company</string>
+    <string name="client2">Audit Company</string>
+    <string name="about_contact">Contact</string>
+    <string name="email">Email: consulting@atm.com</string>
+    <string name="phone">Phone: +55 11 8765-4321</string>
+    <string name="mobile">Mobile: +55 11 98765-4321</string>
 </resources>

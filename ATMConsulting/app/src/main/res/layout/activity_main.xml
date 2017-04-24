@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/companyButton"
+        android:id="@+id/companyImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="59dp"
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/servicesButton"
+        android:id="@+id/servicesImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="59dp"
@@ -38,23 +38,23 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/clientsButton"
+        android:id="@+id/clientsImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="59dp"
         android:layout_marginTop="25dp"
         android:src="@drawable/menu_cliente"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/companyButton" />
+        app:layout_constraintTop_toBottomOf="@+id/companyImageView" />
 
     <ImageView
-        android:id="@+id/contactButton"
+        android:id="@+id/contactImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="59dp"
         android:layout_marginTop="25dp"
         android:src="@drawable/menu_contato"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/servicesButton" />
+        app:layout_constraintTop_toBottomOf="@+id/servicesImageView" />
 
 </android.support.constraint.ConstraintLayout>

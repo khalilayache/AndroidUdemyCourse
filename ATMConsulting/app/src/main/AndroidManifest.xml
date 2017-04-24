@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".views.CompanyActivity"></activity>
+        <activity android:name=".views.CompanyActivity" />
+        <activity android:name=".views.ServicesActivity" />
+        <activity android:name=".views.ClientsActivity" />
+        <activity android:name=".views.ContactActivity"></activity>
     </application>
 
 </manifest>

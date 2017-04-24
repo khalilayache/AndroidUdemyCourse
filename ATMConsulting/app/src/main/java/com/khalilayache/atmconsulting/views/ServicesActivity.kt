@@ -6,16 +6,16 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.khalilayache.atmconsulting.R
 
-class CompanyActivity : AppCompatActivity() {
+class ServicesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_company)
+        setContentView(R.layout.activity_services)
     }
 
     companion object{
         fun start(context: Context){
-            val intent = Intent(context, CompanyActivity::class.java)
+            val intent = Intent(context, ServicesActivity::class.java)
             context.startActivity(intent)
         }
     }
