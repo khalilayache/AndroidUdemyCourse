@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo"
+    tools:context="com.khalilayache.annotations.MainActivity">
+
+  <EditText
+      android:id="@+id/note"
+      android:layout_width="321dp"
+      android:layout_height="371dp"
+      android:layout_marginTop="0dp"
+      android:paddingLeft="35dp"
+      android:paddingTop="5dp"
+      android:gravity="start"
+      android:textSize="30sp"
+      android:paddingBottom="8dp"
+      android:paddingRight="8dp"
+      android:background="@drawable/fundo_anotacao"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/title"/>
+
+  <ImageView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginTop="8dp"
+      android:src="@drawable/logo"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintHorizontal_bias="0.51"
+      app:layout_constraintTop_toTopOf="parent"/>
+
+  <ImageView
+      android:id="@+id/save"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="8dp"
+      android:layout_marginRight="8dp"
+      android:layout_marginTop="0dp"
+      android:src="@drawable/botao_salvar"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintHorizontal_bias="0.51"
+      app:layout_constraintTop_toBottomOf="@+id/note"/>
+
+
+</android.support.constraint.ConstraintLayout>
